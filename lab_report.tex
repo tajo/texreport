@@ -1,0 +1,59 @@
+\documentclass{article}
+
+\usepackage{graphicx} % Required for the inclusion of images
+\usepackage{amsmath} % Required for some math elements
+\usepackage{hyperref}
+\usepackage[numbers,sort]{natbib}
+
+\setlength\parindent{0pt} % Removes all indentation from paragraphs
+\renewcommand{\labelenumi}{\alph{enumi}.} % Make numbering in the enumerate environment by letter
+
+\title{Paper Title \\ Second row \\ Third row} % Title
+\author{Vojtech \textsc{Miksu}} % Author name
+\date{\today} % Date for the report
+
+\begin{document}
+
+\maketitle % Insert the title, author and date
+
+\begin{center}
+\begin{tabular}{l r}
+%Date Performed: & January 1, 2012 \\ % Date the experiment was performed
+%Partners: & James Smith \\ % Partner names
+%& Mary Smith \\
+%Instructor: & Professor Smith % Instructor/supervisor
+\end{tabular}
+\end{center}
+
+% \begin{abstract}
+% Abstract text
+% \end{abstract}
+
+\section{Objective}
+
+To determine the atomic weight of magnesium via its reaction with oxygen and to study the stoichiometry of the reaction. \cite{marsland}
+
+% If you have more than one objective, uncomment the below:
+%\begin{description}
+%\item[First Objective] \hfill \\
+%Objective 1 text
+%\item[Second Objective] \hfill \\
+%Objective 2 text
+%\end{description}
+
+
+\section{Results and Conclusions}
+
+The atomic weight of magnesium is concluded to be, as determined by the stoichiometry of its chemical combination with oxygen. This resuslt is in agreement with the accepted value. \cite{deepface}
+
+%\begin{figure}[h]
+%\begin{center}
+%\includegraphics[width=0.65\textwidth]{placeholder} % Include the image placeholder.png
+%\caption{Figure caption.}
+%\end{center}
+%\end{figure}
+
+\bibliographystyle{unsrtnat}
+\bibliography{ref}
+
+\end{document}
