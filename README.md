@@ -7,13 +7,13 @@ Installation
 ------------
 1. `git clone https://github.com/tajo/texreport.git`
 2. udpate paths in `tex.sh`
-3. (optional) add alias to tex.sh to your `.bash_profile`
+3. (optional) move the `tex.sh` to `/usr/local/bin` or add an alias to your `.bash_profile`
 
 Bootstrap a report
 ------------
-`tex.sh REPORT_NAME`
+`tex REPORT_NAME`
 
-That's it. What about some tools for LaTeX? For Mac, I recommend this combination: 
+That's it. What about some tools for LaTeX? For Mac, I recommend this combination:
 
 - Sublime + LaTeXTools package (text editor)
 - Skim (pdf viewer)
