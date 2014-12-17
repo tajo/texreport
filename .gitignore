@@ -1,1 +1,10 @@
+.idea
 .DS_Store
+*.pyc
+*.aux
+*.fdb_latexmk
+*.log
+*.synctex.gz
+*.bbl
+*.blg
+*.out
